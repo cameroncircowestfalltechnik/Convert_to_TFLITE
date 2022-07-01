@@ -19,5 +19,10 @@ This will populate the folder with the saved_model folder as exhibited above. Th
 
 ##Step 2: Convert to TFLITE and add Metadata
 This is a consolifation of steps 2 and 3 of the google collab.  
-This is completed by running **Convert_to_TFLITE.py** in visual studio. In its current state it's pretty messy and I intend to clean it up in the future. For now I will say the file directories are self explanitory but I will make it easier to use soon.  
+This is completed by running **Convert_to_TFLITE.py** in visual studio. In its current state it's pretty messy and I intend to clean it up in the future. For now I will say the file directories are self explanitory but I will make it easier to use soon. I'm currently experiencing a bug where it wont merge the metadata to the model so I just transfer over both files to where I run the model from. this should be pretty self explanitory below.   
 You should now have a tflite folder like the one above.  
+In yours there should be data in the variables folder too bu this made github angry.  
+
+From here you can copy the model to your desired machine to run, in my case a raspberry pi 4.  
+Object detection on the Pi is run by **PROGRAM NAME** and requires **LIBRARIES** to be installed.  
+This operates pretty similar to some of the sample programs you may find online.  
